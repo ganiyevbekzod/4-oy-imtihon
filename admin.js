@@ -101,6 +101,3 @@ const editProduct=(id)=>{
     })
     .catch((err)=>console.log(err))
 }
-
-
-
