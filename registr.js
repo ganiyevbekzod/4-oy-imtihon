@@ -15,7 +15,7 @@ ElEye.addEventListener("mouseup", function () {
 
 elForm.addEventListener("submit", function (evt) {
     evt.preventDefault();
-    fetch("http://192.168.119.8:5000/user/register", {
+    fetch("http://localhost:5000/user/register", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
